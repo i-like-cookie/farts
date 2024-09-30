@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 function ImageCarousel() {
   const images = [
-    '/images/image1.jpg',
-    '/images/image2.jpeg',
-    '/images/image3.jpg',
+    `${process.env.PUBLIC_URL}/images/image1.jpg`,
+    `${process.env.PUBLIC_URL}/images/image2.jpeg`,
+    `${process.env.PUBLIC_URL}/images/image3.jpg`,
     // Add more image paths as needed
   ];
 
